@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## AWS Lambda@Edge에서 최적화된 이미지 전달받기 위한 인프라 구성
 
-## Getting Started
+---
 
-First, run the development server:
+## Why
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+이미지 최적화에 신경쓰지 않으면 사용자 경험 지표에서 많은 감점을 받기 쉽다. LightHouse 기준, 적절한 이미지 사이즈 사용과 next-gen 포멧 이미지 사용에 대한 개선 방향을 제시받게 된다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`Properly size images`
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+`Serve images in next-gen formats`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+사용자 경험 지표를 개선하고 플랫폼 친화적인 이미지를 응답받기 위한 인프라 구성을 진행한다.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How to Implement
 
-## Learn More
+https://youthfulhps.github.io/aws-lambda-edge%EC%97%90%EC%84%9C-%EC%B5%9C%EC%A0%81%ED%99%94%EB%90%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%84%EB%8B%AC%EB%B0%9B%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9D%B8%ED%94%84%EB%9D%BC-%EA%B5%AC%EC%84%B1
 
-To learn more about Next.js, take a look at the following resources:
+## How to Test
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ex) http://localhost:3000/?w=200&h=200&q=fill&webp=true
