@@ -14,7 +14,7 @@
 
 ## How to Implement
 
-https://youthfulhps.github.io/aws-lambda-edge%EC%97%90%EC%84%9C-%EC%B5%9C%EC%A0%81%ED%99%94%EB%90%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%84%EB%8B%AC%EB%B0%9B%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9D%B8%ED%94%84%EB%9D%BC-%EA%B5%AC%EC%84%B1
+https://youthfulhps.github.io/image-optimization-via-lambda-edge
 
 ## How to Test
 
