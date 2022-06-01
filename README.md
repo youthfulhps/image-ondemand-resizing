@@ -2,7 +2,7 @@
 
 ## How to Implement
 
-[https://youthfulhps.dev/](https://youthfulhps.dev/infra/image-optimization-with-cloudfront/)
+[https://youthfulhps.dev](https://youthfulhps.dev/infra/image-optimization-with-cloudfront/)
 
 ## How to Test
 
